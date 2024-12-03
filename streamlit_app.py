@@ -337,11 +337,11 @@ class StreamlitFileManager:
         return []  # Placeholder for future feature
     
 
-# def main():
-#    st.title("File Manager Demo")
-    # Basic usage with default settings
-#    file_manager = StreamlitFileManager(root_path="/home/")
-#    file_manager.render()
-    # You can access the current path
-#    st.write(f"Current path: {file_manager.current_path}")
-#main()
+def main():
+   st.title("File Manager Demo")
+    Basic usage with default settings
+   file_manager = StreamlitFileManager(root_path="/home/")
+   file_manager.render()
+    You can access the current path
+   st.write(f"Current path: {file_manager.current_path}")
+main()
